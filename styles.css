@@ -25,11 +25,6 @@ body{
     display: flex;
     flex-direction: column;
     margin-left: -200px;
-
-  
-  
-  
-
 }
 .image {
     display: flex;
@@ -94,10 +89,7 @@ body{
     font-size: 2px;
     text-align: left;
     max-width: 200px;
-    font-family: 'Lexend Deca', sans-serif;
-    
-
-    
+    font-family: 'Lexend Deca', sans-serif;    
 }
 .companies{
     display: flex;
@@ -105,9 +97,7 @@ body{
     align-items: center;
     margin-top: 20px;
     max-width: 80px;
-    text-align: left;
-    
-  
+    text-align: left; 
 }
 .templates{
     display: flex;
@@ -122,10 +112,7 @@ body{
     flex-direction: column;
     /* align-items: center; */
     margin-top: 20px;
-
-
 }
-
   @media screen and (max-width: 768px)
   {
     body{
@@ -134,8 +121,7 @@ body{
         align-items: center;
         justify-content: center;
         height: 300vh;
-        margin-right: 200px;
-        
+        margin-right: 200px;    
     }
     .image{
         order: 1;
@@ -143,7 +129,7 @@ body{
         border-top-right-radius: 8px;
         border-top-left-radius: 8px;
         border-bottom-right-radius: 0px;
-        height: 300px;
+        height: 270px;
         filter: saturate(2) hue-rotate(270deg) brightness(80%);
     }
     .card{
